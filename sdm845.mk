@@ -278,6 +278,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_sdm845
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.1-service.sdm845
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
