@@ -172,6 +172,9 @@ PRODUCT_PACKAGES += \
     memtrack.sdm845 \
     vendor.qti.hardware.display.allocator@1.0-service
 
+# Dolby
+$(call inherit-product, vendor/dolby/ds/dolby-product.mk)
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0 \

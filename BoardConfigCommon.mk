@@ -58,6 +58,9 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
+# Dolby
+include vendor/dolby/ds/BoardConfigDolby.mk
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
