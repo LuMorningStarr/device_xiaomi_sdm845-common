@@ -527,6 +527,7 @@ vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so
 -app/MotoDolbyV3/MotoDolbyV3.apk
 -product/priv-app/daxService/daxService.apk
 etc/permissions/com.motorola.dolby.dolbyui.features.xml
+etc/permissions/com.motorola.frameworks.core.addon.xml
 etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml
 product/etc/permissions/com.dolby.daxservice.xml
 vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
