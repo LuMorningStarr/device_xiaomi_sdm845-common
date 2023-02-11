@@ -68,9 +68,9 @@ TARGET_USES_GRALLOC1 := true
 TARGET_USES_DRM_PP := true
 
 # HIDL
-DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/framework_manifest.xml
-DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
-DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/configs/hidl/framework_manifest.xml
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/configs/hidl/manifest.xml
+DEVICE_MATRIX_FILE := $(COMMON_PATH)/configs/hidl/compatibility_matrix.xml
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67092480
@@ -94,10 +94,10 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Properties
-TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
-TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
-TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/system_ext.prop
-TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
+TARGET_ODM_PROP += $(COMMON_PATH)/props/odm.prop
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/props/product.prop
+TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/props/system_ext.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/props/vendor.prop
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
