@@ -13,13 +13,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    CarrierConfigOverlay \
-    SDM845FrameworksOverlay \
-    SDM845SettingsOverlay \
-    SDM845SettingsProviderOverlay \
-    SDM845SimpleDeviceConfigOverlay \
-    SDM845SystemUIOverlay \
-    TelephonyOverlay
+    $(LOCAL_PATH)/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
